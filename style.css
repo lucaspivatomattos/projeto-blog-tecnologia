@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(197, 196, 196);
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(130, 158, 29, 0.726);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+section {
+    flex: 2;
+    display: flex;
+    gap: 10px;
+}
+
+article {
+    flex: 1;
+    padding: 15px;
+    background-color: gray;
+}
+
+aside {
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(158, 157, 157);
+    border: 2px dotted white;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(130, 158, 29, 0.726);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 900px;
+    border: solid 3px black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sublinhada {
+    border-bottom: 2px solid rgb(250, 248, 248);
+    width: 100%;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+.linha_principal {
+    display: flex;
+    gap: 10px;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.galeria img {
+    width: 24%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.area-tabela {
+    width: 100%;
+}
+
+.tabela-conteudo {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.tabela-conteudo caption {
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tabela-conteudo th,
+.tabela-conteudo td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-conteudo thead {
+    background-color: #333333;
+    color: aliceblue;
+}
+
+.tabela-conteudo tbody {
+    background-color: gray;
+    color: aliceblue;
+}
+
+.tabela-conteudo tfoot {
+    background-color: rgba(130, 158, 29, 0.726);
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.secao_cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards_itens {
+    flex: 1;
+    background-color: #6d6d6b;
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+.cards_itens h3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.cards_itens p {
+    font-size: 12px;
+    color: white;
+}
+
+.caixa_chamada {
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: gray;
+    margin-bottom: 10px;
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+}
+
+.caixa_chamada h3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.caixa_chamada p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.form_simulado {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.botao_1 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-size: 12px;
+    color: #888888;
+    width: 250px;
+    text-align: left;
+}
+
+.botao_2 {
+    background-color: #777733;
+    color: white;
+    width: 125;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 8px 16px;
+}
