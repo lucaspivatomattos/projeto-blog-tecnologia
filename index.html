@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula 3 - Etapa 1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer {
+            background-color: #4a4a18;
+            color: white;
+            font-weight: bold;
+        }
+        .text-destaque {
+            color: #ffff88;
+            font-style: italic;
+        }
+        .card-central {
+            background-color: #555553;
+            border-top: 3px solid #ffff88;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 style="color: aliceblue;">MEU BLOG DE TECNOLOGIA</h1>
+            <p style="color: wheat; font-style: italic;">Dicas simples de HTML, CSS e JavaScript</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 2</a></li>
+                <li><a href="#">link 3</a></li>
+                <li><a href="#">link 4</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="linha_principal">
+                <section>
+                    <article>
+                        <h2 class="sublinhada" style="color: aliceblue;">ARTICLE 1</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Modi est perferendis quam laborum aspernatur atque,
+                            sapiente nisi adipisci. Necessitatibus deserunt cupiditate
+                            animi ab repudiandae amet, ex ducimus unde id recusandae?
+                        </p>
+                    </article>
+
+                    <article>
+                        <h2 class="sublinhada" style="color: aliceblue;">ARTICLE 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Velit provident delectus dolorum animi nobis expedita sunt
+                            placeat alias, eligendi ut repudiandae porro dignissimos
+                            nemo officiis nam quo quia debitis aliquam!
+                        </p>
+                    </article>
+                </section>
+
+                <aside>
+                    <h2 class="sublinhada" style="color: aliceblue;">ASIDE</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quod consectetur voluptatibus rerum saepe delectus tenetur
+                        totam veniam sequi, nobis dicta excepturi temporibus nesciunt,
+                        maxime libero velit modi reiciendis atque corrupti?
+                    </p>
+                    <small style="color: #ffffaa; display: block; margin-top: 10px;">
+                        * este quadro usa borda tracejada via CSS inline!
+                    </small>
+                </aside>
+            </div>
+
+            <div class="secao_cards">
+                <div class="cards_itens">
+                    <h3>ESTRUTURA 1</h3>
+                    <p>Texto simples</p>
+                </div>
+                <div class="cards_itens card-central">
+                    <h3>ESTRUTURA 2</h3>
+                    <p>Texto simples</p>
+                </div>
+                <div class="cards_itens">
+                    <h3>ESTRUTURA 3</h3>
+                    <p>Texto simples</p>
+                </div>
+            </div>
+
+            <div class="galeria">
+                <img src="Imagens/HTML_CSS.jfif" alt="Logo HTML e CSS">
+                <img src="Imagens/HTML_CSS.jfif" alt="Logo HTML e CSS">
+                <img src="Imagens/HTML_CSS.jfif" alt="Logo HTML e CSS">
+                <img src="Imagens/HTML_CSS.jfif" alt="Logo HTML e CSS">
+            </div>
+
+            <div class="area-tabela">
+                <table class="tabela-conteudo">
+                    <caption>tabela semântica</caption>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Função Principal</th>
+                            <th>Nível</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Estruturação e Semântica da página</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Estilização, Cores e Layout Visual</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Interatividade e Dinamismo</td>
+                            <td>Iniciante</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Total: 3 Tecnologias Abordadas</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+
+        <div class="caixa_chamada">
+            <h3>RECEBA NOVIDADES E EXERCÍCIOS (form falso)</h3>
+            <p>Cadaste seu e-mail para acompanhar as próximas aulas e desafios de desenvolvimento web</p>
+            <div class="form_simulado">
+                <span class="botao_1">seu-email@exemplo.com</span>
+                <span class="botao_2">INSCREVER-SE</span>
+            </div>
+        </div>
+
+        <footer>
+            <p style="color: aliceblue;">Parágrafo de encerramento</p>
+        </footer>
+    </div>
+</body>
+</html>
